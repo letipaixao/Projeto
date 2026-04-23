@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #dee2e6;
 
 }
 
@@ -114,25 +115,34 @@ main{
   padding: 30px;
   flex: 1;
 }
-.historia{
 
-  background-color: #1a347e;
-  text-align: center;
-  width: 300px;
-  color: white;
-  margin: auto;
-  display: flex;
-  border-radius: 30px;
-}
 
 .titulo{
 
-    padding: 30px;
-    margin: auto;
+    color: #1a347e;
+    font-weight: 700px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
     text-align: center;
-    display: inline;
-  } 
+  }
 
+.linha{
+  width: 100px;
+  height: 4px;
+  background-color: #1a347e;
+  margin: 10px auto;
+  border-radius: 2px;
+  
+}
+
+.linha-decorativa{
+  width: 100px;
+  height: 4px;
+  background-color: #1a347e;
+  margin: 10px auto;
+  border-radius: 2px;
+}
 
 
 .barra-rodape{
