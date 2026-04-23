@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.topo {
+  background-color: #1a347e;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+
+  margin-left: 15px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #978e8e;
+}
+
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.nossa-historia {
+
+  background-color: #f0f0f0;
+  padding: 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+
+  border-radius: 12px;
+
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.carro {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #1a4fff;
+  text-decoration: underline;
+}
+.carro img {
+  position: absolute;
+  top: 120%;
+  left: 0%;
+
+  
+
+  width: 220px;
+  height: auto;
+
+  display: none;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  
+  z-index: 999;
+}
+
+.carro:hover img {
+
+  display: block;
+}
+  
+.nossa-historia:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.historia-item h3 {
+  color: #1a347e;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.historia-item p {
+  line-height: 1.7;
+  margin-bottom: 40px;
+  margin: 10px;
+}
+
+.historia-item ul {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+main{
+  padding: 30px;
+  flex: 1;
+}
+.historia{
+
+  background-color: #1a347e;
+  text-align: center;
+  width: 300px;
+  color: white;
+  margin: auto;
+  display: flex;
+  border-radius: 30px;
+}
+
+.titulo{
+
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    display: inline;
+  } 
+
+
+
+.barra-rodape{
+    background-color: #1a347e;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+
+.redes a {
+  color: white;
+  font-size: 24px;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+
+.redes a:hover .fa-instagram {
+  color: #E4405F;
+}
+
+.redes a:hover .fa-youtube {
+  color: #FF0000;
+}
+
+.redes a:hover .fa-whatsapp {
+  color: #25D366;
+}
+
+.redes a:hover .fa-linkedin {
+  color: #0A66C2;
+} 
+
+.redes a i {
+  transition: 0.3;
+}
+
+.redes a:hover i {
+  transform: scale(1.2);
+}
