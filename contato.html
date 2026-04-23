@@ -1,78 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Contato</title>
-    <link rel="stylesheet" href="contato.css">
-     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Contato</title>
+  <link rel="stylesheet" href="contato.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
 </head>
+
 <body>
 
-    <header>
-      <div class="menu">
-        <img class="img-menu" src="/img/Logo Ford.png" alt="Logo Ford" />
-        <nav class="nav-menu">
-          <a href="#">Veículos</a>
-          <a href="#">Nossa história</a>
-          <a href="#">Contato</a>
-        </nav>
+  <header>
+    <div class="menu">
+      <a href="/pagina-inicial.html"><img class="img-menu" src="/img/Logo Ford.png" alt="Logo Ford" /></a>
+      <nav class="nav-menu">
+        <a href="/pagina-inicial.html">Início</a>
+        <a href="/veiculos.html">Veículos</a>
+        <a href="/nossa-historia.html">Nossa história</a>
+        <a href="/contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- <h1 class="title">Formulário de Contato</h1> -->
+
+    <section class="secao-titulo-pagina">
+      <h1 class="titulo-principal">Contato</h1>
+      <div class="linha-decorativa">
+    </section>
+
+    <form class="contact-form">
+      <div class="form-group">
+        <!-- <label>Nome</label> -->
+        <input type="text" name="nome" class="nome" placeholder="Nome">
       </div>
-    </header>
 
-    <main class="container">
-        <h1 class="title">Formulário de Contato</h1>
-
-        <form class="contact-form">
-            <div class="form-group">
-                <!-- <label>Nome</label> -->
-                <input type="text" name="nome" class="nome" placeholder="Nome">
-            </div>
-
-            <div class="form-group">
-                <!-- <label>Sobrenome</label> -->
-                <input type="text" name="sobrenome" class="sobrenome" placeholder="Sobrenome">
-            </div>
-
-            <div class="form-group">
-                <!-- <label>Email</label> -->
-                <input type="email" name="email" class="email" placeholder="Email">
-            </div>
-
-            <div class="form-group">
-                <!-- <label>Assunto</label> -->
-                <input type="text" name="assunto" class="assunto" placeholder="Assunto">
-            </div>
-
-            <div class="form-group message-group">
-                <!-- <label>Sua mensagem</label> -->
-                <textarea name="mensagem" class="mensagem" placeholder="Sua mensagem"></textarea>
-            </div>
-            <button type="submit" class="botao">Enviar</button>
-        </form>
-    </main>
-
-    <footer>
-      <div class="footer-conteudo">
-        <p>Ford 2026 © Todos os direitos reservados.</p>
-
-        <div class="social-icons">
-          <a href="#"><i class="bi bi-instagram"></i></a>
-          <a href="#"><i class="bi bi-youtube"></i></a>
-          <a href="#"><i class="bi bi-whatsapp"></i></a>
-          <a href="#"><i class="bi bi-linkedin"></i></a>
-        </div>
+      <div class="form-group">
+        <!-- <label>Sobrenome</label> -->
+        <input type="text" name="sobrenome" class="sobrenome" placeholder="Sobrenome">
       </div>
-    </footer>
+
+      <div class="form-group">
+        <!-- <label>Email</label> -->
+        <input type="email" name="email" class="email" placeholder="Email">
+      </div>
+
+      <div class="form-group">
+        <!-- <label>Assunto</label> -->
+        <input type="text" name="assunto" class="assunto" placeholder="Assunto">
+      </div>
+
+      <div class="form-group message-group">
+        <!-- <label>Sua mensagem</label> -->
+        <textarea name="mensagem" class="mensagem" placeholder="Sua mensagem"></textarea>
+      </div>
+      <button type="submit" class="botao">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="footer-conteudo">
+      <p>Ford 2026 © Todos os direitos reservados.</p>
+
+      <div class="social-icons">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+        <a href="#"><i class="bi bi-whatsapp"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
 
 </body>
+
 </html>
