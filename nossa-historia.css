@@ -159,6 +159,13 @@ main{
     height: auto;
 }
 
+.footer-conteudo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 
 .redes a {
   color: white;
@@ -166,6 +173,8 @@ main{
   margin-left: 15px;
   transition: 0.3s;
 }
+
+
 
 
 .redes a:hover .fa-instagram {
