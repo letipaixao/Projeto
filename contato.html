@@ -13,9 +13,11 @@
 
 <body>
 
+  <a href="#" class="top-button">↑</a>
+
   <header>
     <div class="menu">
-      <a href="/pagina-inicial.html"><img class="img-menu" src="/img/Logo Ford.png" alt="Logo Ford" /></a>
+      <a href="/pagina-inicial.html"><img class="img-menu" src="img/Logo Ford.png" alt="Logo Ford" /></a>
       <nav class="nav-menu">
         <a href="/pagina-inicial.html">Início</a>
         <a href="/veiculos.html">Veículos</a>
@@ -35,45 +37,45 @@
 
     <form class="contact-form">
       <div class="form-group">
-        <!-- <label>Nome</label> -->
-        <input type="text" name="nome" class="nome" placeholder="Nome">
+        <input type="text" name="nome" placeholder="Nome" required>
       </div>
 
       <div class="form-group">
-        <!-- <label>Sobrenome</label> -->
-        <input type="text" name="sobrenome" class="sobrenome" placeholder="Sobrenome">
+        <input type="text" name="sobrenome" placeholder="Sobrenome" required>
       </div>
 
-      <div class="form-group">
-        <!-- <label>Email</label> -->
-        <input type="email" name="email" class="email" placeholder="Email">
+      <div class="form-group email-group">
+        <input type="email" name="email" placeholder="Email" required>
       </div>
 
-      <div class="form-group">
-        <!-- <label>Assunto</label> -->
-        <input type="text" name="assunto" class="assunto" placeholder="Assunto">
+      <div class="form-group assunto-group">
+        <input type="text" name="assunto" placeholder="Assunto">
       </div>
 
       <div class="form-group message-group">
-        <!-- <label>Sua mensagem</label> -->
-        <textarea name="mensagem" class="mensagem" placeholder="Sua mensagem"></textarea>
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
       </div>
-      <button type="submit" class="botao">Enviar</button>
+
+      <button type="submit" class="botao">Enviar Mensagem</button>
     </form>
   </main>
 
   <footer>
     <div class="footer-conteudo">
-      <p>Ford 2026 © Todos os direitos reservados.</p>
-
-      <div class="social-icons">
-        <a href="#"><i class="bi bi-instagram"></i></a>
-        <a href="#"><i class="bi bi-youtube"></i></a>
-        <a href="#"><i class="bi bi-whatsapp"></i></a>
-        <a href="#"><i class="bi bi-linkedin"></i></a>
+      <div class="footer-logo">
+        <img src="img/Logo Ford.png" alt="Logo Ford">
       </div>
+
+    <p>Ford 2026 © Todos os direitos reservados.</p>
+
+    <div class="social-icons">
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-youtube"></i></a>
+      <a href="#"><i class="bi bi-whatsapp"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
     </div>
-  </footer>
+  </div>
+</footer>
 
 </body>
 

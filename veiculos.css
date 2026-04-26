@@ -140,10 +140,12 @@ footer {
 }
 
 .footer-conteudo {
-  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .social-icons {
   position: absolute;
@@ -164,7 +166,9 @@ footer {
 
 footer p {
   color: #fff;
-  margin-top: 10px;
+  margin: 0;
+  flex-grow: 1; 
+  text-align: center;
 }
 
 .top-button {
@@ -191,4 +195,19 @@ footer p {
   font-weight: bold;
   background-color: #1b357e;
   color: #f8f9fa;
+}
+
+.barra-rodape{
+    background-color: #1a347e;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  flex-shrink: 0;
 }
